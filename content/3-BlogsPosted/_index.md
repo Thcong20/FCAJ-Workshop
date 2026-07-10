@@ -1,22 +1,18 @@
 ---
 title: "Blogs Posted"
-date: 2024-01-01
+date: 2026-07-09
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+During my internship, I researched and published technical blog posts on the **AWS Study Group** community:
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+### 1. [Blog 1 - Bringing AIOps to Practice](3.1-blog1/)
+Building self-service AWS Health analytics powered by Amazon Bedrock Agents and Athena.
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### 2. [Blog 2 - Production-Grade AI Agents](3.2-blog2/)
+A case study of Stripe implementing Multi-Agent systems on Amazon Bedrock for secure financial compliance (KYC, AML).
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
-
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### 3. [Blog 3 - Claude Sonnet 5 on AWS](3.3-blog3/)
+Analyzing the top-tier capabilities and benefits of Claude Sonnet 5 models on Amazon Bedrock.

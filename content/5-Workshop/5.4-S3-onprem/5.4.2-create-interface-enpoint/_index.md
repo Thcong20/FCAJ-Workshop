@@ -21,9 +21,7 @@ In this section you will create and test an S3 interface endpoint using the simu
 ![service](/images/workshop/30.png)
 
 4. For VPC, select VPC Cloud from the drop-down.
-{{% notice warning %}}
-Make sure to choose "VPC Cloud" and not "VPC On-prem"
-{{% /notice %}}
+
 + Expand **Additional settings** and ensure that Enable DNS name is *not* selected (we will use this in the next part of the workshop)
 
 ![vpc](/images/workshop/31.png)
