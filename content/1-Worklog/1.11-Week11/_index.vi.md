@@ -1,55 +1,26 @@
 ---
-title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+title: "Nhật ký Tuần 11"
+date: 2026-07-09
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-
-
 ### Mục tiêu tuần 11:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hỗ trợ phát triển và kiểm thử dự án Budget Tracker theo kế hoạch sprint.
+* Tìm hiểu sâu về các dịch vụ AWS có liên quan (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2026   | 11/08/2026      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2026   | 12/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2026   | 13/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2026   | 15/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2026   | 15/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| Thứ 2 | Tham gia kiểm thử hệ thống tổng thể. Hỗ trợ test frontend/backend integration. | 29/06/2026 | 29/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 3 | Kiểm tra API endpoints. Test authentication flow tích hợp. | 30/06/2026 | 30/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 4 | Hỗ trợ kiểm tra AI features. Theo dõi logs hệ thống. | 01/07/2026 | 01/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 5 | Kiểm tra chức năng upload receipts. Test lưu trữ dữ liệu tệp đính kèm. | 02/07/2026 | 02/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 6 | Hỗ trợ test notification system. Kiểm tra SNS email delivery hoạt động. | 03/07/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 7 | Tổng hợp lỗi và gửi báo cáo cho nhóm. Cập nhật tài liệu dự án. | 04/07/2026 | 04/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Chủ Nhật | Trao đổi cùng mentor về tiến độ dự án. Chuẩn bị giai đoạn hoàn thiện. | 05/07/2026 | 05/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 11:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hoàn thành đầy đủ các nhiệm vụ kiểm thử và debug được giao trong tuần.
+* Nắm vững cách thức vận hành và tích hợp các dịch vụ trên hạ tầng AWS Serverless.

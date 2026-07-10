@@ -1,55 +1,26 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-07-09
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
+### Objectives for Week 5:
+* Assist in Budget Tracker project development and testing within the sprint.
+* Research and integrate required AWS Serverless services (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
 
+### Tasks deployed this week:
+| Day | Tasks | Start Date | End Date | Reference Source |
+| --- | --- | --- | --- | --- |
+| Mon | Assist in backend Lambda handlers development. Study running ASP.NET Core on Lambda. | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Assist in testing transactions API. Verify DynamoDB read and write queries. | 19/05/2026 | 19/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Study Google Gemini API. Explore AI solutions for auto-categorization of expenses. | 20/05/2026 | 20/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Assist in testing receipt uploads to S3 and verify metadata storage entries. | 21/05/2026 | 21/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Monitor application logs via CloudWatch. Analyze and debug backend API errors. | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Sat | Assist in editing Transactions Page interface. Check responsive layouts. | 23/05/2026 | 23/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Sun | Consolidate bug list and report to team. Update task documentation. | 24/05/2026 | 24/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
-### Week 5 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2026 | 08/11/2026      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2026 | 08/12/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2026 | 08/13/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2026 | 08/15/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2026 | 08/15/2026      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 5 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+### Results achieved in Week 5:
+* Successfully verified and debugged assigned features.
+* Mastered configurations and logs monitoring under AWS Serverless workflows.
