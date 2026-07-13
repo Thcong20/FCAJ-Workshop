@@ -1,26 +1,24 @@
 ---
 title: "Week 9 Worklog"
-date: 2026-07-09
+date: 2026-07-30
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-### Objectives for Week 9:
-* Assist in Budget Tracker project development and testing within the sprint.
-* Research and integrate required AWS Serverless services (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
+### Objectives for Week 9 (09/07/2026 – 15/07/2026):
+* Perform assigned tasks within the internship period from 17/04/2026 to 30/07/2026.
+* Deep dive into target AWS services configurations.
 
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Mon | Assist in testing transactions API. Trace backend handler errors. | 15/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | Assist in upload receipt testing. Verify binary file uploads onto S3. | 16/06/2026 | 16/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | Test dashboard analytics datasets. Assist in frontend bug resolutions. | 17/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | Study basic CI/CD deployment concepts. Check pipeline configurations. | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | Assist in notification system testing. Verify SNS email delivery status. | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sat | Verify CloudFront CDN caches behavior. Trace page loading speeds. | 20/06/2026 | 20/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sun | Summarize Week 9 tasks. Discuss notes with project mentor. | 21/06/2026 | 21/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Study AWS CloudWatch monitoring utilities. Configure basic monitoring Dashboard. | 09/07/2026 | 09/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Configure CloudWatch Metrics and Logs for EC2, Lambda backend. Set up log retention policies. | 10/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | Learn AWS Application Load Balancer (ALB) and traffic distribution routing rules. | 13/07/2026 | 13/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Assist in integrating ALB for EC2 instances inside VPC Cloud. Set up target groups. | 14/07/2026 | 14/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Research security optimization strategies on AWS. Inspect and clean up open ports on Security Groups. | 15/07/2026 | 15/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Results achieved in Week 9:
-* Successfully verified and debugged assigned features.
-* Mastered configurations and logs monitoring under AWS Serverless workflows.
+* Completed all weekly learning steps and project tasks on time.
+* Gained hands-on experience on cloud system engineering and security best practices.

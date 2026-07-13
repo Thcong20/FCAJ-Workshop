@@ -1,26 +1,27 @@
 ---
 title: "Week 6 Worklog"
-date: 2026-07-09
+date: 2026-07-30
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Objectives for Week 6:
-* Assist in Budget Tracker project development and testing within the sprint.
-* Research and integrate required AWS Serverless services (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
+### Objectives for Week 6 (08/06/2026 – 17/06/2026):
+* Perform assigned tasks within the internship period from 17/04/2026 to 30/07/2026.
+* Deep dive into target AWS services configurations.
 
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Mon | Join sprint sync meeting with team. Update project milestones status. | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | Assist in testing user authentication. Verify Cognito user login flow. | 26/05/2026 | 26/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | Learn JWT token mechanism. Test secure authentication API flows. | 27/05/2026 | 27/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | Assist in testing spending dashboard report. Verify chart datasets. | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | Study Recharts library in ReactJS. Check visual stats renderings. | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sat | Assist in testing budgets API. Verify budget limits handling logic. | 30/05/2026 | 30/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sun | Summarize Week 6 milestones. Discuss improvement paths with mentor. | 31/05/2026 | 31/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | Join sprint meeting with team, reporting backend APIs progress. | 08/06/2026 | 08/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Assist in frontend connection to transactions API via Axios. Configure CORS rules on API Gateway. | 09/06/2026 | 09/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Edit ReactJS Transactions Page, optimizing layout for mobile responsive viewports. | 10/06/2026 | 10/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Assist in integrating Recharts library into ReactJS to plot spending stats for users. | 11/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Verify dashboard chart data mappings, fixing color scheme glitches on categories. | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | Assist in budgets API testing. Verify limit detection calculations on expenditures. | 15/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Update Budgets Page frontend views, linking live DynamoDB datasets. | 16/06/2026 | 16/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Deliver completed features, summarizing sprint achievements. | 17/06/2026 | 17/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Results achieved in Week 6:
-* Successfully verified and debugged assigned features.
-* Mastered configurations and logs monitoring under AWS Serverless workflows.
+* Completed all weekly learning steps and project tasks on time.
+* Gained hands-on experience on cloud system engineering and security best practices.

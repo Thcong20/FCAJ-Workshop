@@ -1,26 +1,26 @@
 ---
 title: "Week 7 Worklog"
-date: 2026-07-09
+date: 2026-07-30
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-### Objectives for Week 7:
-* Assist in Budget Tracker project development and testing within the sprint.
-* Research and integrate required AWS Serverless services (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
+### Objectives for Week 7 (18/06/2026 – 28/06/2026):
+* Perform assigned tasks within the internship period from 17/04/2026 to 30/07/2026.
+* Deep dive into target AWS services configurations.
 
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Mon | Onboard official production development support. Verify front-to-back workflows. | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | Assist in resolving API response issues. Verify DynamoDB records accuracy. | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | Study AI chatbot integration on Gemini API. Verify prompt requests to AI service. | 03/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | Assist in frontend dashboard features. Check overview reporting templates. | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | Verify receipt S3 uploads and secure access permissions on file assets. | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sat | Assist in testing email notifications via SNS. Monitor SQS queues processing. | 06/06/2026 | 06/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sun | Report progress milestones. Receive feedback from project mentor. | 07/06/2026 | 07/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | [DIFFICULT TASK - DAY 1] Research AI Chatbot designs for personal finance advisory using Gemini API. | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | [DIFFICULT TASK - DAY 2] Program Lambda handler to process chat inputs and request Gemini API for financial advice. | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | [DIFFICULT TASK - DAY 3] Design AI Chatbox views in ReactJS and establish connectivity via WebSocket/HTTP. | 22/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | [DIFFICULT TASK - DAY 4] Optimize chatbot latency response and verify quality of prompt outputs. | 23/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | [DIFFICULT TASK - DAY 5] Study Amazon SNS and SQS for decoupled asynchronous notifications routing. | 24/06/2026 | 24/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Configure SQS queues to catch budget violation events from Lambda and route them to SNS. | 25/06/2026 | 25/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Configure SNS Topics to trigger warning emails to users. Test end-to-end email delivery. | 26/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Results achieved in Week 7:
-* Successfully verified and debugged assigned features.
-* Mastered configurations and logs monitoring under AWS Serverless workflows.
+* Completed all weekly learning steps and project tasks on time.
+* Gained hands-on experience on cloud system engineering and security best practices.

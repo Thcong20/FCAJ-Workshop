@@ -1,26 +1,27 @@
 ---
 title: "Nhật ký Tuần 4"
-date: 2026-07-09
+date: 2026-07-30
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Mục tiêu tuần 4:
-* Hỗ trợ phát triển và kiểm thử dự án Budget Tracker theo kế hoạch sprint.
-* Tìm hiểu sâu về các dịch vụ AWS có liên quan (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
+### Mục tiêu tuần 4 (18/05/2026 – 27/05/2026):
+* Triển khai các đầu việc trong lộ trình thực tập từ ngày 17/04/2026 đến ngày 30/07/2026.
+* Tìm hiểu sâu và thực hành cấu hình các thành phần dịch vụ AWS.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Tham gia họp nhóm giới thiệu dự án. Tìm hiểu workflow làm việc nhóm. | 11/05/2026 | 11/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 3 | Tìm hiểu DynamoDB Single Table Design. Nghiên cứu cấu trúc dữ liệu của dự án. | 12/05/2026 | 12/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 4 | Hỗ trợ kiểm tra frontend ReactJS. Tìm hiểu Tailwind CSS. | 13/05/2026 | 13/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 5 | Thực hành gọi API bằng Axios. Kiểm tra kết nối frontend và backend. | 14/05/2026 | 14/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 6 | Tìm hiểu CloudFront và Route53. Nghiên cứu CDN và DNS trên AWS. | 15/05/2026 | 15/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 7 | Hỗ trợ test giao diện dashboard. Kiểm tra dữ liệu hiển thị cơ bản. | 16/05/2026 | 16/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Chủ Nhật | Báo cáo tiến độ với mentor. Nhận góp ý và chỉnh sửa công việc. | 17/05/2026 | 17/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 2 | [BÀI KHÓ - NGÀY 1] Tìm hiểu lý thuyết DynamoDB Single Table Design và các hạn chế của NoSQL truyền thống. | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 3 | [BÀI KHÓ - NGÀY 2] Thiết kế Primary Keys (PK/SK) cho transactions, budgets, users và định nghĩa Access Patterns. | 19/05/2026 | 19/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 4 | [BÀI KHÓ - NGÀY 3] Thiết kế Global Secondary Indexes (GSIs) để hỗ trợ các truy vấn lọc động và tìm kiếm. | 20/05/2026 | 20/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 5 | [BÀI KHÓ - NGÀY 4] Viết scripts tạo bảng và kiểm thử các truy vấn Query/Scan trên dữ liệu mô phỏng. | 21/05/2026 | 21/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 6 | [BÀI KHÓ - NGÀY 5] Tối ưu hóa cấu trúc Single Table Design, điều chỉnh schema dựa trên góp ý của Mentor. | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 2 | Tạo Cognito User Pool và cấu hình Client App. Hỗ trợ tích hợp auth flow vào frontend ReactJS. | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 3 | Kiểm tra và sửa lỗi JWT token verification trên frontend. Đảm bảo luồng login an toàn. | 26/05/2026 | 26/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 4 | Họp nhóm giới thiệu dự án, thống nhất quy trình làm việc sprint tiếp theo. | 27/05/2026 | 27/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 4:
-* Hoàn thành đầy đủ các nhiệm vụ kiểm thử và debug được giao trong tuần.
-* Nắm vững cách thức vận hành và tích hợp các dịch vụ trên hạ tầng AWS Serverless.
+* Hoàn thành đầy đủ các nội dung học tập và hỗ trợ kỹ thuật được phân công đúng tiến độ.
+* Tích lũy kiến thức thực tế về kiến trúc hệ thống và an toàn bảo mật trên đám mây.

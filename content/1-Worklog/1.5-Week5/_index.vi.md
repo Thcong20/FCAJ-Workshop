@@ -1,26 +1,26 @@
 ---
 title: "Nhật ký Tuần 5"
-date: 2026-07-09
+date: 2026-07-30
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Mục tiêu tuần 5:
-* Hỗ trợ phát triển và kiểm thử dự án Budget Tracker theo kế hoạch sprint.
-* Tìm hiểu sâu về các dịch vụ AWS có liên quan (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
+### Mục tiêu tuần 5 (28/05/2026 – 07/06/2026):
+* Triển khai các đầu việc trong lộ trình thực tập từ ngày 17/04/2026 đến ngày 30/07/2026.
+* Tìm hiểu sâu và thực hành cấu hình các thành phần dịch vụ AWS.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Thứ 2 | Tham gia hỗ trợ backend Lambda handlers. Tìm hiểu ASP.NET Core trên AWS Lambda. | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 3 | Hỗ trợ kiểm tra API transactions. Kiểm tra thao tác đọc/ghi DynamoDB. | 19/05/2026 | 19/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 4 | Tìm hiểu Google Gemini API. Nghiên cứu AI và giải pháp phân loại giao dịch tự động. | 20/05/2026 | 20/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 5 | Hỗ trợ kiểm tra upload receipt lên S3 và lưu trữ siêu dữ liệu (metadata). | 21/05/2026 | 21/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 6 | Theo dõi log bằng CloudWatch. Kiểm tra lỗi API backend phát sinh. | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 7 | Hỗ trợ chỉnh sửa giao diện Transactions Page. Kiểm tra responsive UI. | 23/05/2026 | 23/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Chủ Nhật | Tổng hợp lỗi và báo cáo cho team. Cập nhật tài liệu công việc. | 24/05/2026 | 24/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 5 | [BÀI KHÓ - NGÀY 1] Tìm hiểu ASP.NET Core chạy trên AWS Lambda và cấu hình Serverless template. | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 6 | [BÀI KHÓ - NGÀY 2] Viết Lambda entrypoint C#, thiết lập dependency injection và DynamoDB context. | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 2 | [BÀI KHÓ - NGÀY 3] Tìm hiểu Google Gemini API và cơ chế gọi API bằng HttpClient trong Lambda C#. | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 3 | [BÀI KHÓ - NGÀY 4] Lập trình logic Lambda gọi Gemini API để phân tích và tự động phân loại giao dịch chi tiêu. | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 4 | [BÀI KHÓ - NGÀY 5] Viết bộ lọc xử lý lỗi kết nối Gemini API, fallback category về mặc định khi timeout. | 03/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 5 | Hỗ trợ kiểm tra tích hợp API transactions, đảm bảo đọc/ghi chính xác vào DynamoDB Single Table. | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 6 | Hỗ trợ viết Lambda upload receipts lên S3. Kiểm tra lưu trữ metadata và file nhị phân. | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 5:
-* Hoàn thành đầy đủ các nhiệm vụ kiểm thử và debug được giao trong tuần.
-* Nắm vững cách thức vận hành và tích hợp các dịch vụ trên hạ tầng AWS Serverless.
+* Hoàn thành đầy đủ các nội dung học tập và hỗ trợ kỹ thuật được phân công đúng tiến độ.
+* Tích lũy kiến thức thực tế về kiến trúc hệ thống và an toàn bảo mật trên đám mây.

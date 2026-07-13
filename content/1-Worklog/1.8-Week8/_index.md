@@ -1,26 +1,27 @@
 ---
 title: "Week 8 Worklog"
-date: 2026-07-09
+date: 2026-07-30
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-### Objectives for Week 8:
-* Assist in Budget Tracker project development and testing within the sprint.
-* Research and integrate required AWS Serverless services (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
+### Objectives for Week 8 (29/06/2026 – 08/07/2026):
+* Perform assigned tasks within the internship period from 17/04/2026 to 30/07/2026.
+* Deep dive into target AWS services configurations.
 
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Mon | Verify API categories configurations. Assist in debugging backend Lambda handlers. | 08/06/2026 | 08/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | Assist in frontend AI Chatbox. Check chatbot user interface elements. | 09/06/2026 | 09/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | Study CloudWatch monitoring tools. Keep track of system performance metrics. | 10/06/2026 | 10/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | Assist in authentication flow testing. Check JWT token expiration logic. | 11/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | Verify budgets page interface details. Assist in editing user views. | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sat | Assist in testing AI insights feature. Inspect JSON responses from Gemini API. | 13/06/2026 | 13/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sun | Consolidate week 8 errors. Update progress reports. | 14/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | [DIFFICULT TASK - DAY 1] Study VPC Gateway Endpoints and Interface Endpoints. Compare routing mechanisms. | 29/06/2026 | 29/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | [DIFFICULT TASK - DAY 2] Deploy CloudFormation stack PLCloudSetup to configure VPC and EC2 environments. | 30/06/2026 | 30/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | [DIFFICULT TASK - DAY 3] Establish Gateway VPC Endpoint. Update Route Tables and test S3 uploads from VPC Cloud. | 01/07/2026 | 01/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | [DIFFICULT TASK - DAY 4] Deploy PLOnpremSetup simulating data center. Set up route tables via Site-to-Site VPN. | 02/07/2026 | 02/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | [DIFFICULT TASK - DAY 5] Create S3 Interface VPC Endpoint. Obtain regional DNS names and test connections from On-prem instance. | 03/07/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | Create Route 53 Private Hosted Zone and map DNS Alias Records for the Interface endpoint. | 06/07/2026 | 06/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Configure Route 53 Inbound/Outbound Resolvers and Forwarding Rules to route DNS queries from On-premises. | 07/07/2026 | 07/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Configure VPC Endpoint Policies restricting bucket access. Perform lab cleanup procedures. | 08/07/2026 | 08/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Results achieved in Week 8:
-* Successfully verified and debugged assigned features.
-* Mastered configurations and logs monitoring under AWS Serverless workflows.
+* Completed all weekly learning steps and project tasks on time.
+* Gained hands-on experience on cloud system engineering and security best practices.

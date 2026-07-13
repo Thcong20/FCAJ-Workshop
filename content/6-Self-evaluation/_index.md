@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 # SELF-ASSESSMENT OF INTERNSHIP RESULTS
 
-During my internship at Amazon Web Services Viet Nam Company Limited from 20/04/2026 to 12/07/2026, I had the opportunity to work in a real-world enterprise environment and apply academic knowledge to real project execution.
+During my internship at Amazon Web Services Viet Nam Company Limited from 17/04/2026 to 30/07/2026, I had the opportunity to work in a real-world enterprise environment and apply academic knowledge to real project execution.
 
 I supported the development of the **Budget Tracker** project - a personal finance management application using AWS Serverless model. My duties included building UI components in ReactJS, creating backend APIs on AWS Lambda, operating with DynamoDB, and integrating AWS S3, Cognito, and CloudWatch.
 

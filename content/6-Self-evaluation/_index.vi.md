@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 # TỰ ĐÁNH GIÁ KẾT QUẢ THỰC TẬP
 
-Trong thời gian thực tập tại Công ty TNHH Amazon Web Services Việt Nam từ 20/04/2026 đến 12/07/2026, tôi đã có cơ hội tiếp cận môi trường làm việc thực tế và vận dụng những kiến thức đã học vào quá trình thực hiện dự án.
+Trong thời gian thực tập tại Công ty TNHH Amazon Web Services Việt Nam từ 17/04/2026 đến 30/07/2026, tôi đã có cơ hội tiếp cận môi trường làm việc thực tế và vận dụng những kiến thức đã học vào quá trình thực hiện dự án.
 
 Trong quá trình thực tập, tôi tham gia hỗ trợ phát triển dự án **Budget Tracker** – ứng dụng quản lý chi tiêu cá nhân được triển khai theo mô hình AWS Serverless. Công việc của tôi bao gồm hỗ trợ xây dựng giao diện bằng ReactJS, tìm hiểu và triển khai API trên AWS Lambda, thao tác với cơ sở dữ liệu Amazon DynamoDB cũng như nghiên cứu các dịch vụ AWS như Amazon S3, Cognito và CloudWatch để phục vụ cho việc lưu trữ dữ liệu, xác thực người dùng và giám sát hệ thống. Qua đó, tôi có cơ hội nâng cao kỹ năng lập trình, khả năng làm việc nhóm và hiểu rõ hơn về quy trình phát triển phần mềm trong thực tế.
 

@@ -1,26 +1,26 @@
 ---
 title: "Week 5 Worklog"
-date: 2026-07-09
+date: 2026-07-30
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-### Objectives for Week 5:
-* Assist in Budget Tracker project development and testing within the sprint.
-* Research and integrate required AWS Serverless services (S3, Lambda, DynamoDB, Cognito, SNS, SQS).
+### Objectives for Week 5 (28/05/2026 – 07/06/2026):
+* Perform assigned tasks within the internship period from 17/04/2026 to 30/07/2026.
+* Deep dive into target AWS services configurations.
 
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Mon | Assist in backend Lambda handlers development. Study running ASP.NET Core on Lambda. | 18/05/2026 | 18/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | Assist in testing transactions API. Verify DynamoDB read and write queries. | 19/05/2026 | 19/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | Study Google Gemini API. Explore AI solutions for auto-categorization of expenses. | 20/05/2026 | 20/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | Assist in testing receipt uploads to S3 and verify metadata storage entries. | 21/05/2026 | 21/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | Monitor application logs via CloudWatch. Analyze and debug backend API errors. | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sat | Assist in editing Transactions Page interface. Check responsive layouts. | 23/05/2026 | 23/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Sun | Consolidate bug list and report to team. Update task documentation. | 24/05/2026 | 24/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | [DIFFICULT TASK - DAY 1] Study running ASP.NET Core on AWS Lambda and configure Serverless templates. | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | [DIFFICULT TASK - DAY 2] Write Lambda entrypoint C#, set up dependency injection and DynamoDB context. | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | [DIFFICULT TASK - DAY 3] Study Google Gemini API and HttpClient integration methods inside Lambda C#. | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | [DIFFICULT TASK - DAY 4] Program Lambda logic calling Gemini API to analyze and auto-categorize expense transactions. | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | [DIFFICULT TASK - DAY 5] Code exception filters to handle Gemini API timeouts, falling back to default categories. | 03/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Assist in testing transactions API integration, ensuring correct DynamoDB Single Table queries. | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Assist in writing S3 receipts upload Lambda. Verify metadata logs and binary assets storage. | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Results achieved in Week 5:
-* Successfully verified and debugged assigned features.
-* Mastered configurations and logs monitoring under AWS Serverless workflows.
+* Completed all weekly learning steps and project tasks on time.
+* Gained hands-on experience on cloud system engineering and security best practices.
