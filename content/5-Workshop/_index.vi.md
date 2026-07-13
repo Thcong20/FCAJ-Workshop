@@ -11,6 +11,8 @@ pre: " <b> 5. </b> "
 
 # Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
 
+> **Website dự án liên quan (Budget Tracker Website):** [https://d3ja9nvtyjzo9o.cloudfront.net/](https://d3ja9nvtyjzo9o.cloudfront.net/)
+
 #### Tổng quan
 
 **AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
