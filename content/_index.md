@@ -13,7 +13,7 @@ chapter: false
 
 &emsp; **Email:** tranquocb91@gmail.com
 
-&emsp; **University:** HUTECH University
+&emsp; **University:** Ho Chi Minh City University of Technology (HUTECH)
 
 &emsp; **Major:** Information Technology
 

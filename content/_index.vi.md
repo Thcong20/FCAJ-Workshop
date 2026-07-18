@@ -13,7 +13,7 @@ chapter: false
 
 &emsp; **Email:** tranquocb91@gmail.com
 
-&emsp; **Trường:** Đại học HUTECH TP. HCM
+&emsp; **Trường:** Đại học Công nghệ thành phố Hồ Chí Minh
 
 &emsp; **Ngành:** Công nghệ thông tin
 

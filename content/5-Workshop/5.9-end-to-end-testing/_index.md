@@ -6,6 +6,10 @@ pre: "<b>5.9. </b>"
 
 ## Module 9: End-to-End Testing
 
+**Group Name:** CCK
+
+**Project Video Demo:** [Google Drive Link](https://drive.google.com/file/d/1_q4sdSqufmfxGnCE7WsOOij97Xxfb1hk/view)
+
 **Member:** Whole team
 
 ### 9.1 Frontend Unit Tests (Vitest)
