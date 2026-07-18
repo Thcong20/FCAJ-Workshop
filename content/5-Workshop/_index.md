@@ -1,31 +1,38 @@
 ---
-title: "Workshop"
-date: 2024-01-01
+title: Workshop
 weight: 5
-chapter: false
-pre: " <b> 5. </b> "
+pre: "<b>5. </b>"
+chapter: true
 ---
 
+### Chapter 5
 
-# Secure Hybrid Access to S3 using VPC Endpoints
+# Workshop
 
-> **Related Project Website (Budget Tracker Website):** [https://d3ja9nvtyjzo9o.cloudfront.net/](https://d3ja9nvtyjzo9o.cloudfront.net/)
+Budget Tracker — AWS Console Implementation Guide. A step-by-step walkthrough of how the team built and deployed the Budget Tracker Serverless application on AWS.
 
-#### Overview
+## Team Assignment
 
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
+| Member | Area | Section |
+|---|---|---|
+| Chung | IAM + Route 53 + WAFv2 (Infrastructure Foundation) | [5.3](/5-workshop/5.3-iam-infrastructure/) |
+| Khiem | DynamoDB + Secrets Manager + S3 (Database & Data layer) + Cognito Auth & Edge | [5.4](/5-workshop/5.4-database-data-layer/), [5.7](/5-workshop/5.7-auth-edge-layer/) |
+| Huy | API Gateway + Lambda Core (Transaction/Budget/Report) + Notifications (SNS/SQS/EventBridge) | [5.5](/5-workshop/5.5-backend-lambda-api/), [5.8](/5-workshop/5.8-notifications-pipeline/) |
+| Cong | React Frontend + Cognito login flow + Gemini AI integration | [5.6](/5-workshop/5.6-frontend-auth-ai/) |
 
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
+(Modules 1, 2, 9, 10, 11, 12 — Introduction, Prerequisites, Testing, Monitoring, Deployment, Cleanup — were done together by the whole team.)
 
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
+## Content
 
-#### Content
-
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequiste](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-S3-vpc/)
-4. [Access S3 from On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
-6. [Clean up](5.6-Cleanup/)
+1. [Introduction](/5-workshop/5.1-introduction/)
+2. [Shared Prerequisites](/5-workshop/5.2-prerequisites/)
+3. [Chung – IAM & VPC Foundation](/5-workshop/5.3-iam-infrastructure/)
+4. [Khiem – Data Layer & Secrets](/5-workshop/5.4-database-data-layer/)
+5. [Huy – Backend Core: Lambda & API](/5-workshop/5.5-backend-lambda-api/)
+6. [Cong – Frontend, Auth & AI](/5-workshop/5.6-frontend-auth-ai/)
+7. [Khiem – Authentication & Edge Layer](/5-workshop/5.7-auth-edge-layer/)
+8. [Huy – Notifications Pipeline](/5-workshop/5.8-notifications-pipeline/)
+9. [End-to-End Testing](/5-workshop/5.9-end-to-end-testing/)
+10. [Monitoring & Operations](/5-workshop/5.10-monitoring-operations/)
+11. [Deployment](/5-workshop/5.11-deployment/)
+12. [Resource Cleanup](/5-workshop/5.12-resource-cleanup/)

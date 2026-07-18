@@ -1,18 +1,24 @@
 ---
-title: "Blogs Posted"
-date: 2026-07-09
+title: Blogs Posted
 weight: 3
-chapter: false
-pre: " <b> 3. </b> "
+pre: "<b>3. </b>"
+chapter: true
 ---
 
-During my internship, I researched and published technical blog posts on the **AWS Study Group** community:
+### Chapter 3
 
-### 1. [Blog 1 - Bringing AIOps to Practice](3.1-blog1/)
-Building self-service AWS Health analytics powered by Amazon Bedrock Agents and Athena.
+# Blogs Posted
 
-### 2. [Blog 2 - Production-Grade AI Agents](3.2-blog2/)
-A case study of Stripe implementing Multi-Agent systems on Amazon Bedrock for secure financial compliance (KYC, AML).
+This section lists and introduces the blogs posted to [AWS Study Group](https://awsstudygroup.com):
 
-### 3. [Blog 3 - Claude Sonnet 5 on AWS](3.3-blog3/)
-Analyzing the top-tier capabilities and benefits of Claude Sonnet 5 models on Amazon Bedrock.
+## [Blog 1 – Bringing AIOps to Practice: an AI Assistant That Automatically Analyzes AWS Health with Amazon Bedrock](/3-blogsposted/3.1-blog1/)
+
+This blog introduces a self-service AWS Health analytics architecture built with **Amazon Bedrock Agents**. It turns raw AWS Health event logs into concrete remediation actions, using **EventBridge** and **S3/Athena** for a centralized data lake and a **Bedrock Knowledge Base** with RAG to look up incident runbooks — cutting incident resolution time (MTTR).
+
+## [Blog 2 – Building Production-Grade AI Agents for Financial Compliance: Lessons from Stripe](/3-blogsposted/3.2-blog2/)
+
+This blog summarizes how **Stripe** applies a **Multi-Agent architecture** on Amazon Bedrock to automate financial compliance workflows (KYC, AML) in production. It covers splitting the pipeline into an Extraction Agent, a Reasoning Agent, and a Decision & Routing Agent, plus a mandatory **Human-in-the-Loop** review for low-confidence cases.
+
+## [Blog 3 – Taking Artificial Intelligence to a New Level: Claude Sonnet 5 Is Now on AWS](/3-blogsposted/3.3-blog3/)
+
+This blog covers the launch of **Claude Sonnet 5** on **Amazon Bedrock** — a model balancing top-tier intelligence, speed, and cost efficiency, built as a solid backbone for autonomous agents, multi-step tool use, and structured-reasoning tasks like reporting and data analysis.

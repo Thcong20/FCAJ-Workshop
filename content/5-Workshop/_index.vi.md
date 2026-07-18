@@ -1,33 +1,38 @@
 ---
-title: "Workshop"
-date: 2024-01-01
+title: Workshop
 weight: 5
-chapter: false
-pre: " <b> 5. </b> "
+pre: "<b>5. </b>"
+chapter: true
 ---
 
+### Chương 5
 
+# Workshop
 
+Budget Tracker — Hướng dẫn triển khai trên AWS Console. Các bước chi tiết mà nhóm đã thực hiện để xây dựng và triển khai ứng dụng Serverless Budget Tracker trên AWS.
 
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
+## Phân công thành viên
 
-> **Website dự án liên quan (Budget Tracker Website):** [https://d3ja9nvtyjzo9o.cloudfront.net/](https://d3ja9nvtyjzo9o.cloudfront.net/)
+| Thành viên | Khối phụ trách | Mục |
+|---|---|---|
+| Chung | IAM + Route 53 + WAFv2 (Infrastructure Foundation) | [5.3](/vi/5-workshop/5.3-iam-infrastructure/) |
+| Khiêm | DynamoDB + Secrets Manager + S3 (Database & Data layer) + Cognito Auth & Edge | [5.4](/vi/5-workshop/5.4-database-data-layer/), [5.7](/vi/5-workshop/5.7-auth-edge-layer/) |
+| Huy | API Gateway + Lambda Core (Transaction/Budget/Report) + Notifications (SNS/SQS/EventBridge) | [5.5](/vi/5-workshop/5.5-backend-lambda-api/), [5.8](/vi/5-workshop/5.8-notifications-pipeline/) |
+| Công | React Frontend + Cognito login flow + Gemini AI integration | [5.6](/vi/5-workshop/5.6-frontend-auth-ai/) |
 
-#### Tổng quan
+(Modules 1, 2, 9, 10, 11, 12 — Introduction, Prerequisites, Testing, Monitoring, Deployment, Cleanup — thực hiện chung cả nhóm)
 
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
+## Nội dung
 
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
-
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
-
-#### Nội dung
-
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)
+1. [Introduction](/vi/5-workshop/5.1-introduction/)
+2. [Chuẩn bị chung](/vi/5-workshop/5.2-prerequisites/)
+3. [Chung – Nền tảng IAM & VPC](/vi/5-workshop/5.3-iam-infrastructure/)
+4. [Khiêm – Lớp dữ liệu & bí mật](/vi/5-workshop/5.4-database-data-layer/)
+5. [Huy – Backend Core: Lambda & API](/vi/5-workshop/5.5-backend-lambda-api/)
+6. [Công – Frontend, Auth & AI](/vi/5-workshop/5.6-frontend-auth-ai/)
+7. [Khiêm – Xác thực & lớp Edge](/vi/5-workshop/5.7-auth-edge-layer/)
+8. [Huy – Notifications Pipeline](/vi/5-workshop/5.8-notifications-pipeline/)
+9. [Kiểm thử end-to-end](/vi/5-workshop/5.9-end-to-end-testing/)
+10. [Giám sát & vận hành](/vi/5-workshop/5.10-monitoring-operations/)
+11. [Triển khai](/vi/5-workshop/5.11-deployment/)
+12. [Dọn dẹp tài nguyên](/vi/5-workshop/5.12-resource-cleanup/)
