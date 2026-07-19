@@ -13,10 +13,10 @@ pre: " <b> 1.11. </b> "
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Tue | [DIFFICULT TASK - DAY 1] Execute end-to-end integration testing trace across FE-BE-DB layers. | 21/07/2026 | 21/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | [DIFFICULT TASK - DAY 2] Troubleshoot Cognito tokens flow. Resolve user profile sync issues inside DynamoDB. | 22/07/2026 | 22/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | [DIFFICULT TASK - DAY 3] Verify request loads limits on API Gateway and Lambda functions. Trace errors in logs. | 23/07/2026 | 23/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | [DIFFICULT TASK - DAY 4] Optimize ReactJS frontend load performance. Fix responsive CSS layouts on mobile browsers. | 24/07/2026 | 24/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Execute end-to-end integration testing trace across FE-BE-DB layers. | 21/07/2026 | 21/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Troubleshoot Cognito tokens flow. Resolve user profile sync issues inside DynamoDB. | 22/07/2026 | 22/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Verify request loads limits on API Gateway and Lambda functions. Trace errors in logs. | 23/07/2026 | 23/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Optimize ReactJS frontend load performance. Fix responsive CSS layouts on mobile browsers. | 24/07/2026 | 24/07/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Results achieved in Week 11:
 * Completed all weekly learning steps and project tasks on time.

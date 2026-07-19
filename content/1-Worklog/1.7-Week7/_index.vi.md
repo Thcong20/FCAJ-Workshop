@@ -13,11 +13,11 @@ pre: " <b> 1.7. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| Thứ 5 | [BÀI KHÓ - NGÀY 1] Tìm hiểu giải pháp xây dựng AI Chatbot tư vấn tài chính cá nhân bằng Gemini API. | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 6 | [BÀI KHÓ - NGÀY 2] Lập trình backend Lambda handler nhận tin nhắn, gọi Gemini API phân tích tài chính của user. | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 2 | [BÀI KHÓ - NGÀY 3] Thiết kế giao diện AI Chatbox trên ReactJS (FE) và kết nối với Lambda qua WebSocket/HTTP. | 22/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 3 | [BÀI KHÓ - NGÀY 4] Tối ưu hóa tốc độ phản hồi của chatbot và kiểm thử chất lượng câu trả lời. | 23/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Thứ 4 | [BÀI KHÓ - NGÀY 5] Tìm hiểu Amazon SNS và SQS để xây dựng hệ thống thông báo bất đồng bộ. | 24/06/2026 | 24/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 5 | Tìm hiểu giải pháp xây dựng AI Chatbot tư vấn tài chính cá nhân bằng Gemini API. | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 6 | Lập trình backend Lambda handler nhận tin nhắn, gọi Gemini API phân tích tài chính của user. | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 2 | Thiết kế giao diện AI Chatbox trên ReactJS (FE) và kết nối với Lambda qua WebSocket/HTTP. | 22/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 3 | Tối ưu hóa tốc độ phản hồi của chatbot và kiểm thử chất lượng câu trả lời. | 23/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ 4 | Tìm hiểu Amazon SNS và SQS để xây dựng hệ thống thông báo bất đồng bộ. | 24/06/2026 | 24/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Thứ 5 | Cấu hình SQS queue nhận tin nhắn cảnh báo vượt ngân sách từ Lambda và chuyển tiếp tới SNS. | 25/06/2026 | 25/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Thứ 6 | Cấu hình SNS Topic gửi email cảnh báo tự động cho người dùng. Test email delivery. | 26/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 

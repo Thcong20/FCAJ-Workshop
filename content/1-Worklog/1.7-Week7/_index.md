@@ -13,11 +13,11 @@ pre: " <b> 1.7. </b> "
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Thu | [DIFFICULT TASK - DAY 1] Research AI Chatbot designs for personal finance advisory using Gemini API. | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | [DIFFICULT TASK - DAY 2] Program Lambda handler to process chat inputs and request Gemini API for financial advice. | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Mon | [DIFFICULT TASK - DAY 3] Design AI Chatbox views in ReactJS and establish connectivity via WebSocket/HTTP. | 22/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | [DIFFICULT TASK - DAY 4] Optimize chatbot latency response and verify quality of prompt outputs. | 23/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | [DIFFICULT TASK - DAY 5] Study Amazon SNS and SQS for decoupled asynchronous notifications routing. | 24/06/2026 | 24/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Research AI Chatbot designs for personal finance advisory using Gemini API. | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Program Lambda handler to process chat inputs and request Gemini API for financial advice. | 19/06/2026 | 19/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | Design AI Chatbox views in ReactJS and establish connectivity via WebSocket/HTTP. | 22/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Optimize chatbot latency response and verify quality of prompt outputs. | 23/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Study Amazon SNS and SQS for decoupled asynchronous notifications routing. | 24/06/2026 | 24/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Thu | Configure SQS queues to catch budget violation events from Lambda and route them to SNS. | 25/06/2026 | 25/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Fri | Configure SNS Topics to trigger warning emails to users. Test end-to-end email delivery. | 26/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 

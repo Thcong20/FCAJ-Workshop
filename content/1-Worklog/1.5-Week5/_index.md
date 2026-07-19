@@ -13,11 +13,11 @@ pre: " <b> 1.5. </b> "
 ### Tasks deployed this week:
 | Day | Tasks | Start Date | End Date | Reference Source |
 | --- | --- | --- | --- | --- |
-| Thu | [DIFFICULT TASK - DAY 1] Study running ASP.NET Core on AWS Lambda and configure Serverless templates. | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Fri | [DIFFICULT TASK - DAY 2] Write Lambda entrypoint C#, set up dependency injection and DynamoDB context. | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Mon | [DIFFICULT TASK - DAY 3] Study Google Gemini API and HttpClient integration methods inside Lambda C#. | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Tue | [DIFFICULT TASK - DAY 4] Program Lambda logic calling Gemini API to analyze and auto-categorize expense transactions. | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
-| Wed | [DIFFICULT TASK - DAY 5] Code exception filters to handle Gemini API timeouts, falling back to default categories. | 03/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Thu | Study running ASP.NET Core on AWS Lambda and configure Serverless templates. | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Fri | Write Lambda entrypoint C#, set up dependency injection and DynamoDB context. | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Mon | Study Google Gemini API and HttpClient integration methods inside Lambda C#. | 01/06/2026 | 01/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Tue | Program Lambda logic calling Gemini API to analyze and auto-categorize expense transactions. | 02/06/2026 | 02/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| Wed | Code exception filters to handle Gemini API timeouts, falling back to default categories. | 03/06/2026 | 03/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Thu | Assist in testing transactions API integration, ensuring correct DynamoDB Single Table queries. | 04/06/2026 | 04/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 | Fri | Assist in writing S3 receipts upload Lambda. Verify metadata logs and binary assets storage. | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> |
 
