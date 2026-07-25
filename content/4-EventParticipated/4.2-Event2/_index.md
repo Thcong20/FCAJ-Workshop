@@ -7,17 +7,8 @@ pre: " <b> 4.2. </b> "
 ---
 
 # EVENT REPORT: FCAJ MEETUP - 04/07/2026
-## Topic: Project Showcase, Cloud Career Mentoring & AWS AI Integration
 
-### 1. Purpose and Significance
-- **Purpose:** Present the demo results of the final internship project (Budget Tracker Web App) before AWS mentors, and receive feedback for improvements.
-- **Significance:** Practice technical pitching skills and learn from leading Cloud and AI experts at AWS Vietnam.
-
-### 2. Main Contents & Demo Feedback
-- **Presentation:** Student Tran Thanh Cong presented the **Budget Tracker** application utilizing AWS Serverless + Google Gemini AI.
-- **Feedback:** Highly praised for clean serverless design (DynamoDB Single Table Design, C# API Lambda) and interactive AI integration. Mentors recommended enhancing security filters and fine-tuning CloudWatch logging.
-
-### 3. Images from the Event
+### Photos recorded at the event:
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="/images/event/event04072026/z8026049406080_8384b997b90d9d755d520a954f7e7b5d.jpg" width="30%" />
